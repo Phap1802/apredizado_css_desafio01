@@ -8,5 +8,5 @@
 
 ### 1 - Usar comando -webkit-background-clip: text;    - para adicionar gradiente no texto e o navegador chrome reconhecer. 
 
-### 2 - layout da lading page não responsivo. 
+### 2 - layout da landing page não responsivo. 
 
