@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sarala:wght@400;700&display=swap');
+
+
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background: transparent;
+    width: auto;
+    
+}
+
+
+
+
+body {
+    width: 100%;    
+    background-color: black;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    
+   
+    background: linear-gradient(#33A8DB, #1472B7);
+    
+    -webkit-background-clip: text;
+
+    background-clip: text;
+    color: transparent;
+
+}
+
+p {
+
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* HEADER*/
+/* -------------------------------------------------------------- */
+
+.header_content {
+
+
+    height: 600px;
+    border-bottom: 1px solid #33A8DB80;
+
+    background-color: #33a9db33;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(49, 168, 221, .01), rgba(0, 0, 0, .9)), url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    padding-top: 60px;
+}
+
+.banner_content {
+
+    color: white;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.logo_css {
+
+    background-color: rgba(0, 0, 0, .2);
+    
+    border-radius: 50%;
+    width: 265px;
+    height: 265px;
+
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    padding-top: 25px;
+
+}
+
+.banner_content p {
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 20px 0 20px;
+}
+
+
+.banner_content button {
+
+        color:#33A8DB;
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        padding: 16px 35px;
+        border: 2px solid #33A8DB;
+        background-color: transparent;
+        border-image: linear-gradient(#3BA1CD, #1572B7);
+        border-image-slice: 10;
+        
+
+
+}
+
+
+/* -------------------------------------------------------------- */
+/* MAIN */
+/* -------------------------------------------------------------- */
+
+
+.courser_content {
+
+    width: 792px;
+    height: 325px;
+    margin: 100px auto;
+    
+    
+    
+}
+
+.courser_content h1 {
+
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 32px;
+    line-height: 38px;
+
+
+}
+
+.courser_content p {
+    
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    
+
+}
+
+.module_course_content {
+
+    margin: auto;
+    
+    
+}
+
+.module_list {
+
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 535px;
+    height: 50px;
+    padding: 16px, 127px;
+    margin-bottom: 20px;
+
+    border: 1px solid #33A8DB ;
+    border-radius: 25px;
+
+    background-color: #252525 ;
+
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    
+
+}
+
+
+.module_list span {
+
+    color:#33A8DB;
+    padding-right: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+/* -------------------------------------------------------------- */
+
+.cybergirl_content {
+    
+    height: 560px;
+    padding: 200px;
+
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+
+    background-image: url('../images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+.cybergirl_content p {
+
+    width: 244px;
+    height: 141px;
+
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+
+    text-shadow: 5px 3px #33A8DB;
+
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+
+.evolution_content {
+
+    width: 792px;
+    margin: 100px auto;
+    
+}
+
+.evolution_content h1 {
+
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 30px;
+
+}
+
+.yang_studant {
+
+    width: 659px;
+    height: 429px;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+.yang_studant img {
+           
+        margin: auto;
+        object-fit: cover;
+
+}
+
+
+
+
+/* -------------------------------------------------------------- */
+/* FOOTER*/
+/* -------------------------------------------------------------- */
+
+
+
+
+.footer_content {       
+    
+    
+    margin: 100px auto;    
+    border-top: 1px solid #33A8DB80;
+     
+
+    margin: auto;
+    padding: 50px;
+
+    background-image:  linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+
+
+}
+
+.logo_footer {
+
+
+    width: 310px;
+    margin: auto;
+
+
+}
+
+.logo_footer figcaption img {
+
+    margin: auto;
+
+}
+
+.logo_footer p a { 
+    color: #33A8DB;
+
+    font-weight: 900;
+    text-decoration: none;
+
+}
